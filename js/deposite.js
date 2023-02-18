@@ -19,7 +19,7 @@ document.getElementById('btn-deposit').addEventListener('click',function(){
     const previousBalanceAddString = balanceAddElements.innerText;
     const previousBalanceAdd = parseFloat(previousBalanceAddString);
     balanceAddElements.innerText = newDepositAmount + previousBalanceAdd ;
-
+    const inputElementFiled = document.getElementById('input-a');
     
 
 })
